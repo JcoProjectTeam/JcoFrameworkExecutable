@@ -2,3 +2,36 @@
 1656119729506:list-collections --database testVirtual
 1656119766397:get-collection --database testVirtual --collection stazioni2
 1656119935384:list-databases
+1656177596835:delete-database 3
+1656177635376:create-database test
+1656177638918:list-databases
+1656177659270:list-collections --database GeoJsonSamples
+1656177688411:delete-collection --database GeoJsonSamples --collection Pippo
+1656177693242:list-collections --database GeoJsonSamples
+1656178454394:delete-collection --database GeoJsonSamples --collection Pippo
+1656178524186:list-databases
+1656178537076:list-collections --database GeoJsonSamples
+1656178555776:list-collections --database test
+1656178575128:help create-dynamic-collection
+1656178644659:create-dynamic-collection --database test --collection  pippo --url http://api.geonames.org/earthquakesJSON?formatted=true&north=44.1&south=-9.9&east=-22.4&west=55.2&username=paolofosci&style=full
+1656178861310:list-databases
+1656178868282:list-collections --database test
+1656178897120:create-dynamic-collection --database test --collection  pippo --url http://api.geonames.org/earthquakesJSON?formatted=true&north=44.1&south=-9.9&east=-22.4&west=55.2&username=paolofosci&style=full
+1656179305400:create-dynamic-collection --database test --collection  pippo2 --url http://api.geonames.org/earthquakesJSON?formatted=true&north=44.1&south=-9.9&east=-22.4&west=55.2&username=paolofosci&style=full https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
+1656179336201:create-dynamic-collection --database test --collection  pippo2 --url http://api.geonames.org/earthquakesJSON?formatted=true&north=44.1&south=-9.9&east=-22.4&west=55.2&username=paolofosci&style=full, https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
+1656179396283:create-dynamic-collection --database test --collection  pippo2 --url http://api.geonames.org/earthquakesJSON?formatted=true&north=44.1&south=-9.9&east=-22.4&west=55.2&username=paolofosci&style=full --url https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
+1656179415996:help
+1656179512889:add-url --database test --collection pippo --urhttps://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
+1656179801485:set-frequency --database test --collection pippo --index 0 --frequency 1D
+1656180014059:set-frequency --database test --collection pippo --index 0 --frequency 1M
+1656180036781:set-frequency --database test --collection pippo --index 0 --frequency 1D
+1656184206986:list-collections
+1656184219087:list-collections --database testVirtual
+1656184375252:list-databases
+1656184384900:list-collections --database test
+1656184396556:delete-database test
+1656184399787:list-databases
+1656184408778:list-collections --database testVirtual
+1656184466196:create-collection --database testVirtual --collection staz
+1656184469832:list-collections --database testVirtual
+1656184537298:create-dynamic-collection --database testVirtual --collection  staz --url  https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
