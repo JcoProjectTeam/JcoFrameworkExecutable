@@ -1,6 +1,5 @@
 
 color 1f
-cd ".\jcoJars\"
 
 if 0%1 == 01 goto java1
 if 0%1 == 02 goto java2
