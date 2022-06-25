@@ -1,0 +1,4 @@
+1656119714399:list-databases
+1656119729506:list-collections --database testVirtual
+1656119766397:get-collection --database testVirtual --collection stazioni2
+1656119935384:list-databases
