@@ -1,1 +1,1 @@
-{"databaseName":"geoSamples","collections":[{"name":"laghi","type":"static"},{"name":"lombardiaLakes","type":"static"},{"name":"nuts","type":"static"}]}
+{"databaseName":"geoSamples","collections":[{"name":"laghi","type":"static"},{"name":"lombardiaLakes","type":"static"},{"name":"nuts","type":"static"},{"name":"testGeo","type":"static"},{"name":"tg2","type":"static"},{"name":"tg","type":"static"}]}

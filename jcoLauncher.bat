@@ -1,6 +1,6 @@
 
 : ds-server
-start cmd.exe --% /K jarLauncher 1
+:start cmd.exe --% /K jarLauncher 1
 : engine
 start cmd.exe --% /K jarLauncher 3
 

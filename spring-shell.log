@@ -35,3 +35,99 @@
 1656184466196:create-collection --database testVirtual --collection staz
 1656184469832:list-collections --database testVirtual
 1656184537298:create-dynamic-collection --database testVirtual --collection  staz --url  https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
+1656413083116:list-databases
+1656413149786:list-collections --database geoSamples
+1656413180664:create-collection --database geoSamples --collection testGeo
+1656413557437:create-collection --database geoSamples --collection tg2
+1656413578312:get-collection --database geoSamples --collection tg2
+1656413595498:get-collection --database geoSamples --collection testGeo
+1656413776066:get-collection --database geoSamples --collection tg2
+1656413795905:get-collection --database geoSamples --collection tg
+1656413814704:list-collections --database geoSamples
+1656431059895:get-collection --database geoSamples --collection testGeo
+1656894980449:help
+1656894990684:exit
+1656895073428:list-databases
+1656895139175:list-collections --database 1
+1656895146364:list-collections --database 2
+1656895149624:list-collections --database 3
+1656895152001:list-collections --database 4
+1656895163205:list-collections --database GeojsonSamples
+1656895742437:get-collection --database GeojsonSamples --collection Pippo2
+1656895870669:list-collections --database GeojsonSamples
+1656896027041:get-collection --database GeojsonSamples --collection Pippo3
+1656946622599:list-collections
+1656946627751:list-databases
+1656946741442:list-collections --database 4
+1656946786052:USE DB GeojsonSamples
+1656946829289:ON SERVER jcods 'http://127.0.0.1:17017';[17~[17~
+1656946916911:list-collections
+1656946923562:list-databases
+1656946943544:quit
+1656947669811:list-collections
+1656947677245:list-collections --database 4
+1656947839053:list-collections --database GeoJsonSamples
+1656947953071:get-collection --database GeoJsonSamples --collection d1
+1656948152871:list-collections --database GeoJsonSamples
+1656948175258:list-databases
+1656949197867:quit
+1656949222090:list-databases
+1656949300264:quit
+1656949316106:help
+1656949319257:list-databases
+1656961571476:list-collections --database GeoJsonSamples
+1656961609820:get-collection --database GeoJsonSamples
+1656961619020:get-collection --database GeoJsonSamples --collection gather1
+1656962237071:list-databases
+1656962523467:list-collections --database test
+1656962868887:list-databases
+1656963054097:list-collections --database test
+1656963318840:list-databases
+1656963324629:list-collections --database test2
+1656963369688:list-databases
+1656963372940:list-collections --database test23
+1656963386121:list-collections --database test3
+1656963870208:list-collections --database 1
+1656964764945:list-databases
+1656964945133:create-virtual-collection --database test --collection v1 --url http://api.geonames.org/findNearbyPlaceNameJSON?formatted=true&lat=5.4&lng=19.5&username=paolofosci&style=full
+1656964995513:add-url --database test --collection v1 --url https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
+1656965356430:create-dynamic-collection --database test --collection d1 --urhttps://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
+1656965422311:add-url --database test --collection d1 --url  http://api.geonames.org/findNearbyPlaceNameJSON?formatted=true&lat=5.4&lng=19.5&username=paolofosci&style=full
+1656965653679:set-frequency --database test --collection d1 --index 0 --frequency 1m
+1656965657759:set-frequency --database test --collection d1 --index 0 --frequency 1M
+1656965680144:set-frequency --database test --collection d1 --index 0 --frequency 1h
+1656965685597:set-frequency --database test --collection d1 --index 0 --frequency h1
+1656965691575:set-frequency --database test --collection d1 --index 0 --frequency 1H
+1656965699707:set-frequency --database test --collection d1 --index 0 --frequency 1m
+1656982645075:help set-frequency
+1656982675228:list-collections --database test
+1656982725760:set-frequency --database test --collection d1 --index 0 --frequency M1
+1656982730878:set-frequency --database test --collection d1 --index 0 --frequency 1M
+1656982778287:set-frequency --database test --collection d1 --index 0 --frequency 1m
+1656982782602:set-frequency --database test --collection d1 --index 0 --frequency 1 m
+1656983082471:list-databases
+1656983095571:list-collections --database test
+1656983122222:list-url --database test --collection d1
+1656983147526:help
+1656983210604:set-frequency --database test --collection d1 --index 0 --frequency 1M
+1656983218614:set-frequency --database test --collection d1 --index 0 --frequency 1m
+1656983223771:set-frequency --database test --collection d1 --index 0 --frequency 1h
+1656983226177:set-frequency --database test --collection d1 --index 0 --frequency 1w
+1656983842631:list-databases
+1656983852789:list-collections --database test
+1656983873560:list-url --database test --collection d1
+1656983930514:set-frequency --database test --collection d1 --index 0 --frequency 2m
+1656984303486:set-frequency --database test --collection d1 --index 1 --frequency 3m
+1656984357057:help set-update-type
+1656984414726:get-collection --database test --collection d1
+1657031697081:list-databases
+1657031707009:list-collections --database test
+1657031758085:create-dynamic-collection --database test --collection d1 --url http://api.geonames.org/findNearbyPlaceNameJSON?formatted=true&lat=5.4&lng=19.5&username=paolofosci&style=full
+1657031945013:get-collection --database test --collection d1
+1657032448199:create-dynamic-collection --database test --collection d2 --url http://api.geonames.org/findNearbyPlaceNameJSON?formatted=true&lat=5.4&lng=19.5&username=paolofosci&style=full
+1657032507681:get-collection --database test --collection d2
+1657032599543:create-dynamic-collection --database test --collection d3 --url http://api.geonames.org/findNearbyPlaceNameJSON?formatted=true&lat=5.4&lng=19.5&username=paolofosci&style=full
+1657032640488:add-url --database test --collection d3 --url https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=10
+1657032656046:list-url --collection d3 --database test
+1657032716787:get-collection --database test --collection d2
+1657032720756:get-collection --database test --collection d3
