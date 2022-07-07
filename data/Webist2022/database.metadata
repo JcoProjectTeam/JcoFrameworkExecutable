@@ -1,0 +1,1 @@
+{"databaseName":"Webist2022","collections":[{"name":"valueArray","type":"dynamic","urls":[{"url":"https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit\u003d10000\u0026$where\u003dstato\u003d%27VA%27","frequency":60000,"updateType":0}]},{"name":"sensorArray","type":"virtual","urls":[{"url":"https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit\u003d100000"}]}]}

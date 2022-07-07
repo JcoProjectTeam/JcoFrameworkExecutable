@@ -131,3 +131,43 @@
 1657032656046:list-url --collection d3 --database test
 1657032716787:get-collection --database test --collection d2
 1657032720756:get-collection --database test --collection d3
+1657157348396:list-databases
+1657157376396:create-collection --database prova --collection pippo
+1657157385244:list-databases
+1657157398820:delete-database --name prova
+1657157403716:dir
+1657157407815:list-databases
+1657157797610:create-virtual-collection --database Webist2022 --collection sensorArray --url https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=100000
+1657157989219:create-dynamic-collection --database Webist2022 --collection valueArray --urlhttps://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=100000000
+1657158026693:get-collection --database Webist2022 --collection valueArray
+1657158055492:list-collections
+1657158064190:list-collections --database Webist2022
+1657158083461:get-collection --database Webist2022 --collection sensorArray
+1657158092181:get-collection --database Webist2022 --collection valueArray
+1657158180547:set-frequency --database Webist2022 --collection valueArray --index 0 --frequency 1m
+1657158468905:list-databases
+1657158478812:delete-database --name Webist2022
+1657158499989:create-virtual-collection --database Webist2022 --collection sensorArray --url https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=100000
+1657158522317:create-dynamic-collection --database Webist2022 --collection valueArray --urlhttps://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=10000&$where=stato='VA'
+1657158591253:set-frequency --database Webist2022 --collection valueArray --index 0 --frequency 1m
+1657158613923:get-collection --database Webist2022 --collection valueArray
+1657158667292:help
+1657158697524:list-url --database Webist2022 --collection valueArray
+1657158782778:delete-collection --database Webist2022 --collection valueArray
+1657158825180:create-dynamic-collection --database Webist2022 --collection valueArray --url https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=10000&$where=stato='VA'
+1657158860233:get-collection --database Webist --collection valueArray
+1657159109373:create-dynamic-collection --database Webist2022 --collection valueArray --url https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=10000&$where=stato=%27VA%27
+1657159129898:create-dynamic-collection --database Webist2022 --collection valueArray --url https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=10000&$where=stato='VA'
+1657159168659:list-databases
+1657159307894:create-dynamic-collection --database Webist2022 --collection valueArray --url https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=10000&$where=stato='VA'
+1657159414211:get-collection --database Webist2022 --collection valueArray
+1657159489968:delete-database Webist2022
+1657159496209:create-dynamic-collection --database Webist2022 --collection valueArray --url https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=10000&$where=stato=%27VA%27
+1657159517448:get-collection --database Webist2022 --collection valueArray
+1657159536664:create-virtual-collection --database Webist2022 --collection sensorArray --url https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=100000
+1657197831462:help
+1657197863102:list-databases
+1657197890271:list-collections --database Webist2022
+1657197915519:list-collections --database geoSamples
+1657197951817:get-collection --database Webist2022 --collection sensorArray
+1657198942695:help
