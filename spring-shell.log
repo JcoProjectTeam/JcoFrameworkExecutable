@@ -171,3 +171,21 @@
 1657197915519:list-collections --database geoSamples
 1657197951817:get-collection --database Webist2022 --collection sensorArray
 1657198942695:help
+1657204208657:delete-database Webist2022
+1657204673163:create-dynamic-collection --database Webist2022 --collection valueArray --url https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=100000000&$where=data>=(stato=%27VV%27%20OR%20stato=%27VA%27)%20AND%20idoperatore<>%274%27 AND%20data>=%272022-07-04%27%20AND%20data%<%272022-07-05%27
+1657204726088:create-dynamic-collection --database Webist2022 --collection valueArray --url "https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=100000000&$where=data >= (stato='VV' OR stato='VA') AND idoperatore<>'4' AND data >= '2022-07-04' AND data < '2022-07-05'"
+1657204772579:get-collection --database Webist2022 --collection valueArray
+1657204876324:delete-collection --database Webist --collection valueArray
+1657204923913:create-dynamic-collection --database Webist2022 --collection valueArray --url "https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=100000000&$where=(stato='VV' OR stato='VA') AND idoperatore<>'4' AND data >= '2022-07-04' AND data < '2022-07-05'"
+1657204947494:create-dynamic-collection --database Webist2022 --collection valueArray2 --url "https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=100000000&$where=(stato='VV' OR stato='VA') AND idoperatore<>'4' AND data >= '2022-07-04' AND data < '2022-07-05'"
+1657204968301:get-collection --database Webist2022 --collection valueArray2
+1657205144062:create-virtual-collection --database Webist2022 --collection sensorArray --url https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=100000
+1657205153390:create-dynamic-collection --database Webist2022 --collection valueArray --url "https://www.dati.lombardia.it/resource/647i-nhxk.json?$limit=100000000&$where=(stato='VV' OR stato='VA') AND idoperatore<>'4' AND data >= '2022-07-04' AND data < '2022-07-05'"
+1657206445423:list-collections --database Webist2022
+1657206493704:create-collection --database Webist2022 --collection valueCollection
+1657206676443:create-collection --database Webist2022 --collection valueCollectionStatic
+1657206679690:list-collections --database Webist2022
+1657211737261:delete-collection --database Webist2022 --collection valueCollectionStatic
+1657211743529:delete-collection --database Webist2022 --collection valueCollection
+1657212034540:get-collection --database Webist2022 --collection valueCollection
+1657802428406:list-databases
