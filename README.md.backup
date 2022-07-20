@@ -3,20 +3,39 @@ Executable Jco Jars
 
 
 ## Content
-| File/Folder | Description |
-| jcoql-ui-1.0.0.jar | ...|
-| jcoql-ds-client-1.0.0.jar | ... |
-| jcoql-ds-server-1.0.0.jar | ... |
-| jcoql-engine-1.0.4.jar | ... |
-| Folder 'data' | ... |
-| Folder 'data' | ... |
+| File/Folder | Description |  
+| ----------- | ----------- |  
+| jcoql-engine-1.0.4.jar | Module to launch the _Jco-Engine_ |  
+| jcoql-ui-1.0.0.jar | Module to lauch the Jco-User-Interface (_Jco-UI_). Needs _Jco-Engine_ to run properly |  
+| jcoql-ds-server-1.0.0.jar | Module to launch _Jco-DS-Server_ |  
+| jcoql-ds-client-1.0.0.jar | Module to launch _Jco-DS-Client_. Need _Jco-DS-Server_ to run properly |  
+| Folder 'config' | Advanced settings for _Jco-Engine_ |  
+| Folder 'data' | Sample of data repository for _Jco-DS-Server_ |  
+| Folders 'jcoql-engine', 'jcoql-ds-client', 'jcoql-ds-server' | Contain support libraries |  
 
 
 ## Deployment
-Download the content of this repository on your computer.
+Download the content of this repository on your computer.  
 Launch the proper java jar to activate the desidered module.
 
 ## Script Shortcuts
+The following batch script are devoloped for Windows operating systems.
 
+| Script | Description | Parameters |   
+| ------ | ----------- | ---- |   
+| jarLauncher.bat | Shortcut script to lauch the Jco modules | _01_: to launch _Jco-DS-Server_ |  
+| | | _02_: to launch _Jco-DS-Client_ |  
+| | | _03_: to launch _Jco-Engine_ |  
+| | | _04_: to launch _Jco-UI_ |   
+| jcoLauncher.bat | Shortcut script to launch _all_ Jco modules| |  
+| uiLauncher.bat | Shortcut script to launch only _Jco-Engine_ and _Jco-UI_ | |   
+| dsLauncher.bat | Shortcut script to launch only _Jco-DS_Server_ and _Jco-DS_Client_ | |   
 
 ## Advanced Settings
+In folder [./config/settings.properties](./config/settings.properties) is possible to set advanced parameters for _Jco-Engine_:
+| Parameter | Description | Default value |  
+| --------- | ----------- | ------ |  
+| nProcessors | Number of processors to use in the hosting machine | _4_ |   
+| server.port | Communication port for _Jco-DS_ communication | _17017_ |  
+| server.data-path | Location  of the _Jco-DS_ re| _./data_ |  
+
