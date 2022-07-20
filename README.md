@@ -1,8 +1,8 @@
 # jcoJars
-Executable Jco Jars 
+Executable Jco-framework java jars. 
 
 
-## Content
+## Folder Content
 | File/Folder | Description |  
 | ----------- | ----------- |  
 | _jcoql-engine-1.0.4.jar_ | Module to launch the _Jco-Engine_ |  
@@ -18,9 +18,9 @@ Executable Jco Jars
 Download the content of this repository on your computer.  
 Launch the proper java jar to activate the desidered module.
 
+
 ## Script Shortcuts
 The following batch script are devoloped for Windows operating systems.
-
 | Script | Description | Parameters |   
 | ------ | ----------- | ---- |   
 | _jarLauncher.bat_ | Shortcut script to lauch the Jco modules | _01_: to launch _Jco-DS-Server_ |  
