@@ -6,7 +6,7 @@ Executable Jco Jars
 | File/Folder | Description |  
 | ----------- | ----------- |  
 | _jcoql-engine-1.0.4.jar_ | Module to launch the _Jco-Engine_ |  
-| _jcoql-ui-1.0.0.jar | Module to lauch the Jco-User-Interface (_Jco-UI_). Needs _Jco-Engine_ to run properly |  
+| _jcoql-ui-1.0.0.jar_ | Module to lauch the Jco-User-Interface (_Jco-UI_). Needs _Jco-Engine_ to run properly |  
 | _jcoql-ds-server-1.0.0.jar_ | Module to launch _Jco-DS-Server_ |  
 | _jcoql-ds-client-1.0.0.jar_ | Module to launch _Jco-DS-Client_. Need _Jco-DS-Server_ to run properly |  
 | Folder _'config'_ | Advanced settings for _Jco-Engine_ |  
