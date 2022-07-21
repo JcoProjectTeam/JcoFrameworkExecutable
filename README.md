@@ -1,5 +1,6 @@
 # jcoJars
-Executable Jco-framework java jars. 
+Executable Jco-framework java jars.  
+The code has been compiled with Java 1.8 compiler.
 
 
 ## Folder Content
@@ -32,10 +33,10 @@ The following batch script are devoloped for Windows operating systems.
 | _dsLauncher.bat_ | Shortcut script to launch only _Jco-DS_Server_ and _Jco-DS_Client_ | |   
 
 ## Advanced Settings
-In folder [./config/settings.properties](./config/settings.properties) is possible to set advanced parameters for _Jco-Engine_ and _Jco-DS_:
+In the folder [./config/settings.properties](./config/settings.properties) is possible to set advanced parameters for _Jco-Engine_ and _Jco-DS_:
 | Parameter | Description | Default value |  
 | --------- | ----------- | ------ |  
 | _nProcessors_ | Number of processors to use in the hosting machine | _4_ |   
+| _server.data-path_ | Location  of the _Jco Engine_ repository folder | _./data_ |  
 | _server.port_ | Communication port for _Jco-DS_ communication | _17017_ |  
-| _server.data-path_ | Location  of the _Jco-DS_ repository folder | _./data_ |  
 
