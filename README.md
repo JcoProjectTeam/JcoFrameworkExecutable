@@ -1,8 +1,8 @@
 # jcoJars
-Executable Jco-framework java jars.  
-The code has been compiled with Java 1.8 compiler.
-
-
+Executable JCo framework java jars (here the [Main landing page of the project](https://github.com/JcoProjectTeam/JcoProjectPage).  
+The code has been compiled with a Java 1.8 compiler.  
+  
+  
 ## Folder Content
 | File/Folder | Description |  
 | ----------- | ----------- |  
@@ -13,13 +13,15 @@ The code has been compiled with Java 1.8 compiler.
 | Folder _'config'_ | Advanced settings for _Jco-Engine_ |  
 | Folder _'data'_ | Sample of data repository for _Jco-DS-Server_ |  
 | Folders _'jcoql-engine'_, _'jcoql-ds-client'_, _'jcoql-ds-server'_ | Contain support libraries |  
-
-
+  
+  
+  
 ## Deployment
 Download the content of this repository on your computer.  
-Launch the proper java jar to activate the desidered module.
-
-
+Launch the proper java jar to activate the desidered module.  
+  
+  
+  
 ## Script Shortcuts
 The following batch script are devoloped for Windows operating systems.
 | Script | Description | Parameters |   
@@ -38,5 +40,5 @@ In the folder [./config/settings.properties](./config/settings.properties) is po
 | --------- | ----------- | ------ |  
 | _nProcessors_ | Number of processors to use in the hosting machine | _4_ |   
 | _server.data-path_ | Location  of the _Jco Engine_ repository folder | _./data_ |  
-| _server.port_ | Communication port for _Jco-DS_ communication | _17017_ |  
+| _server.port_ | Communication port for _Jco-DS_ communication | _17017_ |     
 
