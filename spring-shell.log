@@ -189,3 +189,17 @@
 1657211743529:delete-collection --database Webist2022 --collection valueCollection
 1657212034540:get-collection --database Webist2022 --collection valueCollection
 1657802428406:list-databases
+1659617893583:create-database --name adbis
+1659617898491:list-databases
+1659618144914:import-collection --database adbis --collection comuni --from-file comuni.geojson
+1659618167338:help
+1659618204187:get-collection --database adbis --collection comuni
+1659618276393:import-collection --database adbis --collection towns --from-file comuni.geojson
+1659618313590:import-collection --database adbis --collection highways --from-file Highways.geojson
+1659618332466:get-collection --database adbis --collection highways
+1659620095832:list-collections --database adbis
+1659620228331:create-collection webist2022
+1659620241420:create-database webist2022
+1659620256137:import-collection --database webist2022 --collection highways --from-file Highways.geojson
+1659620276324:import-collection --database webist2022 --collection towns --from-file comuni.geojson
+1659620612367:get-collection --database adbis --collection highways
