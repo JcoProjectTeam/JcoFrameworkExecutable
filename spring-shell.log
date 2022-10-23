@@ -203,3 +203,15 @@
 1659620256137:import-collection --database webist2022 --collection highways --from-file Highways.geojson
 1659620276324:import-collection --database webist2022 --collection towns --from-file comuni.geojson
 1659620612367:get-collection --database adbis --collection highways
+1659823483748:list-databases
+1659823525185:list-collections adbis
+1659823542143:list-collections geoSamples
+1659823556610:list-collections Webist2022
+1659823612946:list-databases
+1659823730084:list-collections geosoftDb
+1659823768520:get-collection --collection towns --database geosoftDb
+1664975899819:list-collections
+1664975917080:list-databases
+1664975933001:list-collections --database gepSoftDb
+1666099903769:list-databases
+1666099952585:list-collections --database geoSoftDb

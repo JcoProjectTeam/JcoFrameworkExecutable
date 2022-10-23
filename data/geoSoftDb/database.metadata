@@ -1,0 +1,1 @@
+{"databaseName":"webist2022","collections":[{"name":"highways","type":"static"},{"name":"towns","type":"static"},{"name":"highwayTowns","type":"static"}]}
