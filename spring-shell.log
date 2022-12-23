@@ -215,3 +215,4 @@
 1664975933001:list-collections --database gepSoftDb
 1666099903769:list-databases
 1666099952585:list-collections --database geoSoftDb
+1666907008576:list-collections --database geosoftDb
