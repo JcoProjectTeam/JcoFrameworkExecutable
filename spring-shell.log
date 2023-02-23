@@ -216,3 +216,7 @@
 1666099903769:list-databases
 1666099952585:list-collections --database geoSoftDb
 1666907008576:list-collections --database geosoftDb
+1676298267426:list-databases
+1676302851447:list-collections --database TestNC
+1676302863031:help
+1676302894040:get-collection-count --database TestNC --collection R1
