@@ -220,3 +220,66 @@
 1676302851447:list-collections --database TestNC
 1676302863031:help
 1676302894040:get-collection-count --database TestNC --collection R1
+1680831252239:list-databases
+1680831279110:create-database softIntelligence
+1680831341091:create-dynamic-collection --covidData --database softIntelligence --https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/json/
+1680831357197:help
+1680831411030:list-databases
+1680831453683:list-collections --database softIntelligence
+1680831491640:get-collection-count --database softIntelligence --collection covidData
+1680831641650:list-databases
+1680831706948:list-url
+1680831732276:list-url --database softIntelligence --collection covidData
+1680831777126:delete-collection --database softIntelligence
+1680831785723:delete-collection --database softIntelligence --collection covidData
+1680832154187:help
+1680832356819:set-frequency --collection covidData --database softIntelligence --index 1 --frequency 1w
+1680832377864:set-frequency --collection covidData --database softIntelligence --index 1 --frequency 1m
+1680832383879:set-frequency --collection covidData --database softIntelligence --index 0 --frequency 1m
+1680832402689:set-frequency --collection covidData --database softIntelligence --index 0 --frequency 60s
+1680832410572:set-frequency --collection covidData --database softIntelligence --index 0 --frequency 60m
+1680832414418:set-frequency --collection covidData --database softIntelligence --index 0 --frequency 60M
+1680832518888:set-frequency --collection covidData --database softIntelligence --index 0 --frequency 4W
+1680832529513:set-frequency --collection covidData --database softIntelligence --index 0 --frequency W4
+1680832538763:set-frequency --collection covidData --database softIntelligence --index 0 --frequency 4D
+1680832623782:create-database db1
+1680832648314:create-dynamic-collection --database db1 --collection covid
+1680832711994:list-databases
+1680832764499:create-dynamic-collection --database db1 --collection covid --url https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/json/
+1680832803012:set-frequency --db1 --collection covid --index 0 --frequency 4W
+1680832808769:set-frequency --db1 --collection covid --index 0 --frequency 4w
+1680832813051:set-frequency --db1 --collection covid --index 0 --frequency 4D
+1680833159679:help
+1680833237432:get-collection-count --database db1 --collection covid
+1680905496021:list-databases
+1680905628596:list-collections --database softIntelligence
+1680905680968:list-url --database softIntelligence --collection covidData
+1680905696702:list-url --database softIntelligence --collection --covidData
+1680905971572:create-database --name softIntelligenceDb
+1680906080671:create-dynamic-collection --database softIntelligenceDb --collection officialEUCovidData --url https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/json/
+1680906156610:set-frequency --database softIntelligence --collection officialEUCovidData --index 0 --frequency 1W
+1680906219642:set-update-type
+1680906226868:help set-update-type
+1680906247208:help
+1680906345268:set-update-type --database  softIntelligence --collection officialEUCovidData --index 0 --type 1
+1680913232340:list-databases
+1680913243201:list-collections --database softIntelligenceDb
+1680913276138:get-collection-count --database softIntelligenceDb --collection euOfficialCovidData
+1680913423672:create-database --name softIntelligenceDb
+1680913445038:create-dynamic-collection --database softIntelligenceDb --collection euOfficialCovidData --url https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/json/
+1685632373869:list-databases
+1685669236979:list-collections --database TestNC
+1685669356045:import-collection --database temp --collection datiPioggia --from-file C:/Users/Unibg/Documents/J-CO/.data/.zunTestScripts/11.TEST Webist 2023/dati/collezionePioggia.txt
+1685669371296:import-collection --database temp --collection datiPioggia --from-file "C:/Users/Unibg/Documents/J-CO/.data/.zunTestScripts/11.TEST Webist 2023/dati/collezionePioggia.txt"
+1685669483707:list-databases
+1685669630339:list-collections --database temp
+1688382089294:list-databases
+1688382105045:list-collections --database geosoftDb
+1688382607515:help
+1688382665344:get-collection --collection towns --database geosoftDb --limit 3
+1688383840982:list-collections --database geosoftDb
+1688477273018:list-collections --database --geosoftDb
+1688477281191:list-collections --database eosoftDb
+1688477283811:list-collections --database geosoftDb
+1688477468196:import-collection --database geosoftDb --collection townsMedium --from-file C:\\Users\\Unibg\\Documents\\J-CO\\dataset\\townsMedium.geojson
+1688477501522:import-collection --database geosoftDb --collection townsMedium --from-file C:/Users/Unibg/Documents/J-CO/dataset/townsMedium.geojson

@@ -1,1 +1,1 @@
-{"databaseName":"webist2022","collections":[{"name":"highways","type":"static"},{"name":"towns","type":"static"},{"name":"highwayTowns","type":"static"},{"name":"MediumLengthHighways","type":"static"}]}
+{"databaseName":"webist2022","collections":[{"name":"highways","type":"static"},{"name":"towns","type":"static"},{"name":"highwayTowns","type":"static"},{"name":"MediumLengthHighways","type":"static"},{"name":"townsMilano","type":"static"},{"name":"highwayTownsMilano","type":"static"},{"name":"townsMedium","type":"static"},{"name":"highwayTownsMedium","type":"static"}]}

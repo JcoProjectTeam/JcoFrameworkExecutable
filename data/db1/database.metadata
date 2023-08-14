@@ -1,0 +1,1 @@
+{"databaseName":"db1","collections":[{"name":"covid","type":"dynamic","urls":[{"url":"https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/json/","frequency":600000,"updateType":1}]}]}

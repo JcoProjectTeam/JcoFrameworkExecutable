@@ -1,0 +1,1 @@
+{"databaseName":"softIntelligenceDb","collections":[{"name":"euOfficialCovidData","type":"dynamic","urls":[{"url":"https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/json/","frequency":604800000,"updateType":1}]}]}
