@@ -283,3 +283,4 @@
 1688477283811:list-collections --database geosoftDb
 1688477468196:import-collection --database geosoftDb --collection townsMedium --from-file C:\\Users\\Unibg\\Documents\\J-CO\\dataset\\townsMedium.geojson
 1688477501522:import-collection --database geosoftDb --collection townsMedium --from-file C:/Users/Unibg/Documents/J-CO/dataset/townsMedium.geojson
+1693406690727:list-databases
