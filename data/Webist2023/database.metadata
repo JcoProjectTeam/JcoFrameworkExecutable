@@ -1,1 +1,1 @@
-{"databaseName":"Webist2023","collections":[]}
+{"databaseName":"Webist2023","collections":[{"name":"MesauredRain","type":"static"},{"name":"PeaksAndLongRain","type":"static"},{"name":"Configurations","type":"static"}]}

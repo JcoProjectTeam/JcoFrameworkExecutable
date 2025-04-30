@@ -287,3 +287,9 @@
 1693841505193:list-collections
 1693841517611:list-collections  --database Webist2023
 1702576724923:help
+1725011770453:list-collections
+1725011776531:list-databases
+1725011792105:list-collections --database Webist2023
+1725109982478:list-databases
+1725109997428:list-collections --database Webist2023
+1725586487518:list-databases
